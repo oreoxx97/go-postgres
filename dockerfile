@@ -1,5 +1,5 @@
 # ใช้ official Go image เวอร์ชัน alpine (ขนาดเล็ก)
-FROM golang:1.20-alpine
+FROM golang:1.23-alpine
 
 # ตั้ง working directory ใน container
 WORKDIR /app
