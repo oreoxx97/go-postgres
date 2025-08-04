@@ -1,0 +1,7 @@
+[psql]
+  user = "postgres"
+  pass = "newpassword"
+  dbname = "postgres"
+  host = "localhost"
+  port = 5432
+  sslmode = "disable"

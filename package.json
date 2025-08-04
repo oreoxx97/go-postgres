@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "generate": "dotenv -e .env -- sqlboiler psql \"postgres://$DB_USER:$DB_PASSWORD@localhost:5432/postgres?sslmode=disable\" --output=models",
+    "dev": "nodemon --exec go run main.go"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0"
+  }
+}
